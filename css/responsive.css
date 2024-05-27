@@ -91,7 +91,9 @@
         text-align: center;
 
     }
-
+    .slider_item-detail h1 {
+        font-size: 40px !important;
+      }
     .slider_item-container .slider_item-detail .d-flex {
 
         justify-content: center;
