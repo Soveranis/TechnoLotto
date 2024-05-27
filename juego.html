@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Lotería Electrónica</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+    <!-- slider stylesheet -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <!-- fonts style -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+
+    <style>
+        label {
+            text-align: justify !important;
+        }
+
+        .slider_section {
+            margin-top: -40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero_area">
+        <!-- header section strats -->
+        <header class="header_section">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.png" alt="" /><span>
+                            TechnoLotto
+                        </span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+                            <ul class="navbar-nav  ">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Incio <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="reglas.html">Reglas</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Creacion.html">Informacion Creacion </a>
+                                </li>
+                            </ul>
+
+
+
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- end header section -->
+        <!-- slider section -->
+        <section class=" slider_section position-relative">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="slider_item-box">
+                            <div class="slider_item-container">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12" style="text-align: center;">
+                                            <div class="slider_item-detail">
+                                                <div>
+                                                    <h2>
+                                                        Jugadores
+                                                        </h1><br>
+                                                        <form action="juego/back.php" method="post">
+                                                            <div class="form-13">
+                                                                <div class="from-grup">
+                                                                    <label for="">Nombre de jugador 1</label>
+                                                                    <input type="text" class="form-control"
+                                                                        name="name-1" id="name-1" required>
+                                                                </div>
+                                                                <div class="from-grup">
+                                                                    <label for="">Nombre de jugador 2</label>
+                                                                    <input type="text" class="form-control"
+                                                                        name="name-2" id="name-2" required>
+                                                                </div>
+                                                                <div class="from-grup">
+                                                                    <label for="">Nombre de jugador 3</label>
+                                                                    <input type="text" class="form-control"
+                                                                        name="name-3" id="name-3" required>
+                                                                </div>
+                                                                <div class="from-grup">
+                                                                    <label for="">Nombre de jugador 4</label>
+                                                                    <input type="text" class="form-control"
+                                                                        name="name-4" id="name-4" required>
+                                                                </div>
+                                                            </div><br><br>
+                                                            <button type="submit"
+                                                                class="text-uppercase custom_orange-btn mr-3">Jugar</button>
+                                                            <br><br><br>
+                                                        </form>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- end slider section -->
+    </div>
+    <!-- 
+
+    <script>
+    
+    //    document.getElementById('numero_seleccionado').addEventListener('change', function() {
+    //     var numero = parseInt(this.value);
+    //     var inputsDinamicos = document.getElementById('inputs_dinamicos');
+    //     inputsDinamicos.innerHTML = ''; // Limpiar los inputs dinámicos existentes
+
+    //     for (var i = 0; i < numero; i++) {
+    //         var label = document.createElement('label');
+    //         label.textContent = 'Usuario jugador ' + (i + 1);
+    //         label.for = 'dato_' + (i + 1);
+    //         inputsDinamicos.appendChild(label);
+
+    //         var nuevoInput = document.createElement('input');
+    //         nuevoInput.type = 'text';
+    //         nuevoInput.name = 'dato_' + (i + 1);
+    //         nuevoInput.className = 'form-control';
+    //         nuevoInput.style.marginBottom = '10px';
+    //         inputsDinamicos.appendChild(nuevoInput);
+    //     }
+    // });
+    </script> -->
+    <!-- footer section -->
+
+    <!-- footer section -->
+
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    </script>
+    <!-- end google map js -->
+</body>
+
+</html>
