@@ -575,7 +575,7 @@ a:focus {
 
 
 
-/* .animated-list {
+.animated-list {
   list-style-type: none;
   padding: 0;
 }
@@ -619,4 +619,4 @@ a:focus {
       opacity: 1;
       transform: translateX(0);
   }
-} */
+}
